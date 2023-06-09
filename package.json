@@ -1,0 +1,35 @@
+{
+  "name": "backend-sampah",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "dev": " nodemon",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.6.0",
+    "firebase-admin": "^9.2.0",
+    "helmet": "^5.0.2",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.6.0",
+    "mongoose-morgan": "^1.0.17",
+    "nodemailer": "^6.7.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
