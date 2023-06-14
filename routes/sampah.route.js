@@ -64,7 +64,7 @@ router.post("/:id", async (req, res, next) => {
   }
 });
 
-app.delete("/:id", async (req, res, next) => {
+router.delete("/:id", async (req, res, next) => {
   try {
     const target = await $sampahModel.findById(req.params.id);
     if (!target._id) {
